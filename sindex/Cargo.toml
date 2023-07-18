@@ -1,0 +1,12 @@
+[package]
+name = "sindex"
+version = "0.1.0"
+edition = "2021"
+authors = ["Roy <varonroy@gmail.com>"]
+repository = "https://github.com/varonroy/sindex"
+license = "MIT"
+
+[dependencies]
+value-derive = { path = "../value-derive/" }
+sindex-derive = { path = "../sindex-derive/" }
+

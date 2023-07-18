@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "sindex-derive",
+  "value-derive",
+  "sindex",
+]
