@@ -14,6 +14,8 @@ pub fn value(args: TokenStream, input: TokenStream) -> TokenStream {
     let variants: Vec<_> = args
         .to_string()
         .replace(' ', "")
+        .replace('\n', "")
+        .replace('\r', "")
         .split(',')
         .map(|ty| {
             let var_name = ty.to_title_case();
