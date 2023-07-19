@@ -1,5 +1,5 @@
 # Sindex
-**S**truct **I**ndex is a library for dynamically indexing structs with strings.
+**S**truct **Index** is a library for dynamically indexing structs with strings.
 
 ## Why
 In Rust, or any programming language for the matter, how would you access a variable in a struct? Well you would probably write something like `foo.bar.my_field`. However, what if you wanted to change a variable dynamically, while the program is running or even based on a string? Well in that case you would have two options:

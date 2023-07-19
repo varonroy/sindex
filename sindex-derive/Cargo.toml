@@ -9,10 +9,6 @@ license = "MIT"
 [lib]
 proc-macro = true
 
-[[test]]
-name = "tests"
-path = "tests/test.rs"
-
 [dependencies]
-quote = "1.0.30"
-syn = { version = "2.0.26", features = ["extra-traits"] }
+syn = "2.0"
+quote = "1.0"
